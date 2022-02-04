@@ -11,7 +11,7 @@ spring:
 #  secret: my_token_user_servicedefault_native#new2
 
 gateway:
-  ip: 192.168.0.103
+  ip: 172.18.0.6
 
 order-service:
   order-url: 'http://order-service:8000/order-service/%s/orders'
